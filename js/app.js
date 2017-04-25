@@ -13,23 +13,5 @@ function carrusel() {
 }
 carrusel(); //Callback Carrousel
 
-/*Para detener con mouseover
-var intervalo;
 
-function iniciar() {
-  intervalo = setTimeout(carrusel, 5000);
-}
-
-function detener() {
-  clear(intervalo);
-}
-
-(function () {
-  iniciar();
-  ('.carrusel DIV').hover(function (){
-    detener();
-  }, function (){
-    iniciar();
-  })
-});*/
 
