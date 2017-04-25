@@ -1,14 +1,35 @@
-var slideIndex = 0;
-carousel();
+var indice = 0;
 
-function carousel() {
+function carrusel() {
     var i;
     var x = document.getElementsByClassName("portada");
     for (i = 0; i < x.length; i++) {
       x[i].style.display = "none"; 
     }
-    slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1} 
-    x[slideIndex-1].style.display = "block"; 
-    setTimeout(carousel, 5000); // Change image every 2 seconds
+    indice++;
+    if (indice > x.length) {indice = 1} 
+    x[indice-1].style.display = "block"; 
+    setTimeout(carrusel, 5000); // Change image every 2 seconds
 }
+carrusel(); //Callback Carrousel
+
+/*Para detener con mouseover
+var intervalo;
+
+function iniciar() {
+  intervalo = setTimeout(carrusel, 5000);
+}
+
+function detener() {
+  clear(intervalo);
+}
+
+(function () {
+  iniciar();
+  ('.carrusel DIV').hover(function (){
+    detener();
+  }, function (){
+    iniciar();
+  })
+});*/
+
