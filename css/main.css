@@ -238,28 +238,20 @@ span {
 }
 
 /*Iconos*/
-.iconos{
- 	width:30px;
-  background-color: red;
-  height: 48px;
-  position: absolute;
-  display: inline-block;
+.iconos {
+   margin: 5px;
+   width: 140px;
+   height: 30px;
+   background: #f00;
+   border: 1px solid #666;
+   transition: all 1s ease;
+	 z-index: 3;
+	 display: inline-block;
+	 position: absolute;
 }
-.icon-contenedor div {
-	width:30%;
-}
-.icon-contenedor:hover div {
-	transform:scale(60.60);
-  transition: 0.4s;
-}
-.icon-contenedor {
-	width:200px;
-	height:48px;
-	overflow:hidden;
- 	position: absolute;
- 	display: inline-block;
- 	z-index: 3;
- 	top: 200px;
+.iconos:hover{
+	 width: 300px;
+   transition: all 2s ease;
 }
 
 /*Footer*/
