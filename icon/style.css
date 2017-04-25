@@ -71,5 +71,5 @@
 }
 .icon-facebook-with-circle:before {
   content: "\e900";
+  position: absolute;
 }
-
