@@ -1,0 +1,50 @@
+/*Cuerpo general*/
+body {
+	background-image: url(../img/fondo.png);
+	background-repeat: all;
+}
+
+.container {
+	background-color: white;
+}
+
+/*Imagen de cabecera*/
+.fija {
+	max-width: 100%;
+	height: 400px;
+}
+
+figcaption {
+    margin-top: -300px;
+    margin-left: 296px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    width: 50%;
+}
+
+/*Sección Cómo llegar*/
+.info, .mapa {
+	vertical-align: top;
+	display: inline-block;
+	width: 49%;
+	height: 500px;
+}
+
+#descripcion {
+	padding-right: 15px;
+	text-align: justify;
+}
+
+/*Sección Qué ofrece*/
+
+.que-ofrece, .tres-cuerpos {
+	display: block;
+}
+
+#primer-cuerpo, #segundo-cuerpo, #tercer-cuerpo {
+	display: inline-block;
+	text-align: center;
+	height: 500px;
+	width: 29%;
+}
