@@ -68,6 +68,7 @@ figcaption {
 	height: 400px;
 	width: 33%;
 	background-color: lightpink;
+	position: relative;
 }
 
 /*Sección Modal*/
