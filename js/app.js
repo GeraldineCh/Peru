@@ -12,4 +12,3 @@ function carrusel() {
     setTimeout(carrusel, 5000); // Cambia la imagen cada 5 segundos
 }
 carrusel(); //Callback Carrousel
-

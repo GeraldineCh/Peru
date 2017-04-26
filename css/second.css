@@ -125,16 +125,27 @@ h2 {
 }
 
 .anexo {
-    background-color: green;
     display: inline-block;
+		border: 1px solid purple;
     width: 150px;
     height: 150px;
 }
 
 #maxi {
     border: 5px solid purple;
-    width: 400px;
+    width: 500px;
     height: 400px;
+		z-index: 300px;
+		position: absolute;
+}
+.areaTexto{
+	position: relative;
+	float: right;
+	font-size: 30px;
+	top: 200px;
+	right: -60px;
+	transform: rotate(90deg);
+	color: purple;
 }
 
 

@@ -69,8 +69,8 @@ a:hover {
 /*Estructura de las divisiones del cuerpo*/
 @import "compass/css3";
 
-@keyframes fadeIn { 
-  from { opacity: 0.5; } 
+@keyframes fadeIn {
+  from { opacity: 0.5; }
 }
 
 .carrusel {
@@ -259,4 +259,10 @@ footer {
 	background-color: gray;
 	color: white;
 	font-weight: bold;
+}
+
+.tamañoImag{
+	width:150px;
+	height: 150px;
+	position: absolute;
 }
