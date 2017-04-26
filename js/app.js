@@ -9,6 +9,7 @@ function carrusel() {
     indice++;
     if (indice > x.length) {indice = 1}
     x[indice-1].style.display = "block";
-    setTimeout(carrusel, 5000); // Change image every 2 seconds
+    setTimeout(carrusel, 5000); // Cambia la imagen cada 5 segundos
 }
 carrusel(); //Callback Carrousel
+

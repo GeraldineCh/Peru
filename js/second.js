@@ -17,6 +17,12 @@ window.onclick = function(event) {
     }
 }
 
+document.addEventListener('keyup', function(e) {
+    if (e.keyCode == 27) {
+    modal.style.display = "none";
+    }
+});
+
 //Sección Comida
 var modal2 = document.getElementById('myModal2');
 var seccion2 = document.getElementById("segundo-cuerpo");
@@ -36,6 +42,12 @@ window.onclick = function(event) {
     }
 }
 
+document.addEventListener('keyup', function(e) {
+    if (e.keyCode == 27) {
+    modal2.style.display = "none";
+    }
+});
+
 //Sección Actividades
 var modal3 = document.getElementById('myModal3');
 var seccion3 = document.getElementById("tercer-cuerpo");
@@ -54,3 +66,9 @@ window.onclick = function(event) {
         modal3.style.display = "none";
     }
 }
+
+document.addEventListener('keyup', function(e) {
+    if (e.keyCode == 27) {
+    modal3.style.display = "none";
+    }
+});
