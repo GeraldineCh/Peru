@@ -101,10 +101,42 @@ h2 {
 .modal-content {
     background-color: #fefefe;
     margin: auto;
+    margin-top: -80px;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
 }
+
+#imagenes-contenido {
+    margin: 40px;
+}
+
+#mini {
+    padding: 40px;
+    width: 350px;
+    height: 350px;
+
+
+}
+
+#mini, #maxi {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.anexo {
+    background-color: green;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+#maxi {
+    border: 5px solid purple;
+    width: 400px;
+    height: 400px;
+}
+
 
 /* Botón de cierre */
 .close {
